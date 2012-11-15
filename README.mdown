@@ -33,7 +33,7 @@ Run `./bootstrap.sh` again any time you want to update your dotfiles.
 
 Put all the other files you want sourced in `dotfiles/custom`.
 
-For example, I have `dotfiles/custom/desandro.bash` that looks like
+For example, I have `dotfiles/custom/debelius.bash` that looks like
 
 ``` bash
 # PATH exports
