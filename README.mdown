@@ -8,7 +8,7 @@ Clone repo
 
 ``` bash
 cd ~/where/i/put/repos/
-git clone https://github.com/desandro/dotfiles.git
+git clone https://github.com/dannydb/dotfiles.git
 ```
 
 Edit `DOTFILES` location in `.bash_profile`
