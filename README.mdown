@@ -60,7 +60,7 @@ I stole the prompt themes from [bash-it](https://github.com/revans/bash-it). Try
 source "$DOTFILES/themes/rainbowbrite.theme.bash"
 ```
 
-## Those that came before (and did the heavy lifting)
+## Those who came before (and did the heavy lifting)
 
 + [desandro/dotfiles](https://github.com/desandro/dotfiles)
 + [revans/bash-it](https://github.com/revans/bash-it)
