@@ -1,6 +1,6 @@
 # dotfiles
 
-Personalized settings for Terminal, Git, TextMate, etc.
+Personalized settings for Terminal, Git, Sublime Text, etc.
 
 ## Installation
 
@@ -43,8 +43,8 @@ export PATH
 # Git credentials
 # Not under version control to prevent people from accidentally
 # committing with your details
-GIT_AUTHOR_NAME="David DeSandro"
-GIT_AUTHOR_EMAIL="desandro@example.com"
+GIT_AUTHOR_NAME="Danny DeBelius"
+GIT_AUTHOR_EMAIL="debelius@example.com"
 GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
 GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 # Set these credentials in ~/.gitconfig
@@ -60,8 +60,9 @@ I stole the prompt themes from [bash-it](https://github.com/revans/bash-it). Try
 source "$DOTFILES/themes/rainbowbrite.theme.bash"
 ```
 
-## These guys did all the hard work
+## Those that came before (and did the heavy lifting)
 
++ [desandro/dotfiles](https://github.com/desandro/dotfiles)
 + [revans/bash-it](https://github.com/revans/bash-it)
 + [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles/)
 + [necolas/dotfiles](https://github.com/necolas/dotfiles)

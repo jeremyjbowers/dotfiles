@@ -16,7 +16,7 @@
 #
 # - configurable directory length
 # - hg, svn, git detection (I work in all of them)
-# - virtualenv, rvm + gemsets
+# - virtualenv
 # 
 # Screenshot: http://i.imgur.com/4IAMJ.png 
 #
@@ -32,10 +32,6 @@
 
 # IMPORTANT THINGS TO CHANGE ==================================================
 
-# Show IP in prompt
-# One thing to be weary about if you have slow Internets
-IP_ENABLED=1
-
 # virtual prompts
 VIRTUAL_PROMPT_ENABLED=1
 
@@ -47,7 +43,6 @@ DEFAULT_COLOR="${white}"
 USER_COLOR="${purple}"
 SUPERUSER_COLOR="${red}"
 MACHINE_COLOR=$ORANGE
-IP_COLOR=$ORANGE
 DIRECTORY_COLOR="${green}"
 
 VE_COLOR="${cyan}"
@@ -61,16 +56,12 @@ SCM_THEME_PROMPT_CLEAN=" ${bold_green}✓${normal}"
 SCM_THEME_PROMPT_PREFIX=' on '
 SCM_THEME_PROMPT_SUFFIX=''
 
-# rvm prompts
-RVM_THEME_PROMPT_PREFIX=''
-RVM_THEME_PROMPT_SUFFIX=''
-
 # virtualenv prompts
 VIRTUALENV_THEME_PROMPT_PREFIX=''
 VIRTUALENV_THEME_PROMPT_SUFFIX=''
 
-VIRTUAL_THEME_PROMPT_PREFIX=' using '
-VIRTUAL_THEME_PROMPT_SUFFIX=''
+VIRTUAL_THEME_PROMPT_PREFIX='['
+VIRTUAL_THEME_PROMPT_SUFFIX=']'
 
 # Max length of PWD to display
 MAX_PWD_LENGTH=20
@@ -78,44 +69,23 @@ MAX_PWD_LENGTH=20
 # Max length of Git Hex to display
 MAX_GIT_HEX_LENGTH=5
 
-# IP address
-IP_SEPARATOR=', '
-
 # FUNCS =======================================================================
-
-function ip {
-    myip=$(curl -s checkip.dyndns.org | grep -Eo '[0-9\.]+')
-    echo -e "$(ips | sed -e :a -e '$!N;s/\n/${IP_SEPARATOR}/;ta' | sed -e 's/127\.0\.0\.1\${IP_SEPARATOR}//g'), ${myip}"
-}
-
-# Displays ip prompt 
-function ip_prompt_info() {
-    if [[ $IP_ENABLED == 1 ]]; then
-        echo -e " ${DEFAULT_COLOR}(${IP_COLOR}$(ip)${DEFAULT_COLOR})"
-    fi 
-}
 
 # Displays virtual info prompt (virtualenv/rvm)
 function virtual_prompt_info() {
     local virtual_env_info=$(virtualenv_prompt)
-    local rvm_info=$(ruby_version_prompt)
     local virtual_prompt=""
 
     local prefix=${VIRTUAL_THEME_PROMPT_PREFIX}
     local suffix=${VIRTUAL_THEME_PROMPT_SUFFIX}
 
     # If no virtual info, just return
-    [[ -z "$virtual_env_info" && -z "$rvm_info" ]] && return
+    [[ -z "$virtual_env_info" ]] && return
 
     # If virtual_env info present, append to prompt
-    [[ -n "$virtual_env_info" ]] && virtual_prompt="virtualenv: ${VE_COLOR}$virtual_env_info${DEFAULT_COLOR}"
+    [[ -n "$virtual_env_info" ]] && virtual_prompt="$virtual_env_info"
 
-    if [[ -n "$rvm_info" ]]
-    then
-        [[ -n "$virtual_env_info" ]] && virtual_prompt="$virtual_prompt, "
-        virtual_prompt="${virtual_prompt}rvm: ${RVM_COLOR}$rvm_info${DEFAULT_COLOR}"
-    fi
-    echo -e "$prefix$virtual_prompt$suffix"
+    echo -e "${VE_COLOR}$prefix$virtual_prompt$suffix${DEFAULT_COLOR}"
 }
 
 # Parse git info
@@ -189,9 +159,9 @@ function prompt() {
     [ $UID -eq "0" ] && UC=$SUPERUSER_COLOR
 
     if [[ $VIRTUAL_PROMPT_ENABLED == 1 ]]; then
-        PS1="$(scm_char) ${UC}\u ${DEFAULT_COLOR}at ${MACHINE_COLOR}\h$(ip_prompt_info) ${DEFAULT_COLOR}in ${DIRECTORY_COLOR}$(limited_pwd)${DEFAULT_COLOR}$(virtual_prompt_info)$(scm_prompt_info)${reset_color} \$ "
+        PS1="$(scm_char) ${UC}\u ${DEFAULT_COLOR}at ${MACHINE_COLOR}\h ${DEFAULT_COLOR}in $(virtual_prompt_info)${DIRECTORY_COLOR}$(limited_pwd)${DEFAULT_COLOR}$(scm_prompt_info)${reset_color} \n\$ "
     else
-        PS1="$(scm_char) ${UC}\u ${DEFAULT_COLOR}at ${MACHINE_COLOR}\h$(ip_prompt_info) ${DEFAULT_COLOR}in ${DIRECTORY_COLOR}$(limited_pwd)${DEFAULT_COLOR}$(scm_prompt_info)${reset_color} \$ "
+        PS1="$(scm_char) ${UC}\u ${DEFAULT_COLOR}at ${MACHINE_COLOR}\h ${DEFAULT_COLOR}in ${DIRECTORY_COLOR}$(limited_pwd)${DEFAULT_COLOR}$(scm_prompt_info)${reset_color} \n\$ "
     fi
     PS2='> '
     PS4='+ '
