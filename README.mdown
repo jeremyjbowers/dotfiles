@@ -63,6 +63,7 @@ source "$DOTFILES/themes/rainbowbrite.theme.bash"
 ## Those who came before (and did the heavy lifting)
 
 + [desandro/dotfiles](https://github.com/desandro/dotfiles)
++ [paulirish/dotfiles](https://github.com/paulirish/dotfiles)
 + [revans/bash-it](https://github.com/revans/bash-it)
 + [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles/)
 + [necolas/dotfiles](https://github.com/necolas/dotfiles)
