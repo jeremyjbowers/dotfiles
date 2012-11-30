@@ -69,3 +69,4 @@ source "$DOTFILES/themes/rainbowbrite.theme.bash"
 + [revans/bash-it](https://github.com/revans/bash-it)
 + [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles/)
 + [necolas/dotfiles](https://github.com/necolas/dotfiles)
++ [Mark Wunsch - Sublime Text 2 User Settings and version control](http://mwunsch.tumblr.com/post/15742953582/sublime-text-2-user-settings-and-version-control)
