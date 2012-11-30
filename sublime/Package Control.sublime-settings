@@ -1,0 +1,35 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"Alignment",
+		"CSS Snippets",
+		"Djaneiro",
+		"Dotfiles Syntax Highlighting",
+		"FileDiffs",
+		"Format SQL",
+		"Git",
+		"JsFormat",
+		"JSHint",
+		"JsMinifier",
+		"LESS",
+		"Package Control",
+		"SCSS",
+		"SCSS Snippets",
+		"SetDjangoSyntax",
+		"StringEncode",
+		"Sublime Finder",
+		"sublime-github",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SVN",
+		"Terminal",
+		"TextFormatting",
+		"Theme - Soda",
+		"Transmit Docksend",
+		"Unicode Character Highlighter",
+		"View In Browser",
+		"VintageEx",
+		"ZenCoding"
+	]
+}
