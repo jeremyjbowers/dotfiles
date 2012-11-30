@@ -25,6 +25,8 @@ cd dotfiles
 ./bootstrap.sh
 ```
 
+Symlink the sublime directory to `~/Library/Application Support/Sublime Text 2/Packages/user`
+
 ### Updating
 
 Run `./bootstrap.sh` again any time you want to update your dotfiles.
