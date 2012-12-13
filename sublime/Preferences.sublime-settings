@@ -1,5 +1,7 @@
 {
 	"ignored_packages":	[],
 	"theme": "Soda Dark.sublime-theme",
-	"soda_classic_tabs": false
+	"soda_classic_tabs": false,
+	"font_face": "Source Code Pro",
+	"font_size": 13
 }
