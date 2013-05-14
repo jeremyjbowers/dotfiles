@@ -17,10 +17,14 @@
 		"LESS",
 		"LESS-build",
 		"Less2Css",
+		"Minifier",
 		"Nodejs",
 		"Package Control",
+		"RSpec",
+		"SASS Build",
 		"SCSS",
 		"SCSS Snippets",
+		"SetDjangoSyntax",
 		"StringEncode",
 		"Sublime Finder",
 		"sublime-github",
@@ -29,11 +33,13 @@
 		"SVN",
 		"Terminal",
 		"TextFormatting",
+		"Theme - Flatland",
 		"Theme - Soda",
 		"Transmit Docksend",
 		"Unicode Character Highlighter",
 		"View In Browser",
 		"VintageEx",
+		"YUI Compressor",
 		"ZenCoding"
 	]
 }
