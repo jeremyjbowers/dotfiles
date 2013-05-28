@@ -2,6 +2,7 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"Bower",
 		"CSS Snippets",
 		"CSScomb",
 		"CSSFormat",
@@ -23,6 +24,7 @@
 		"Minifier",
 		"Nodejs",
 		"Package Control",
+		"Placeholders",
 		"RSpec",
 		"SASS Build",
 		"SCSS",
