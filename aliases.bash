@@ -88,3 +88,6 @@ alias fs="stat -f \"%z bytes\""
 # Hide/show all desktop icons (useful when presenting)
 alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
 alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
+
+# Install project requirements
+alias installreq="pip install -r requirements.txt; npm install less universal-jst -g --prefix node_modules"
