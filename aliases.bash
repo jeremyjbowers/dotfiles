@@ -13,6 +13,7 @@ alias gp='git push'
 alias gl='git pull'
 alias gca='git commit -v -a'
 alias gco='git checkout'
+alias gs='git status -sb'
 # Lovely git log, thx @visionmedia
 alias glog="git log --format='%Cgreen%h%Creset %Cblue%ad%Creset %C(cyan)%an%Creset: %s' --graph --date=short"
 # Undo a `git push`
