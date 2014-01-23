@@ -24,14 +24,11 @@
 		"JSHint",
 		"JsMinifier",
 		"LESS",
-		"LESS-build",
-		"LiveReload",
 		"Minifier",
 		"Nodejs",
 		"Package Control",
 		"Placeholders",
 		"RSpec",
-		"SASS Build",
 		"SassBeautify",
 		"SCSS",
 		"SCSS Snippets",
@@ -52,9 +49,7 @@
 		"Transmit Docksend",
 		"Unicode Character Highlighter",
 		"View In Browser",
-		"VintageEx",
 		"Web Inspector",
-		"YUI Compressor",
 		"ZenCoding"
 	]
 }
