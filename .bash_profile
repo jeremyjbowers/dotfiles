@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export DOTFILES="$HOME/working/dotfiles"
+export DOTFILES="$HOME/Projects/dotfiles"
 
 # Don't check mail when opening terminal.
 unset MAILCHECK
