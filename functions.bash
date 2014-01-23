@@ -134,3 +134,7 @@ datauri() {
     fi
     printf "data:${mimeType};base64,$(openssl base64 -in "$1" | tr -d '\n')" | pbcopy | printf "=> data URI copied to pasteboard.\n"
 }
+
+pman () {
+    man -t "${1}" | open -f -a /Applications/Preview.app
+}

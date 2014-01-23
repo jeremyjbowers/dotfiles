@@ -3,6 +3,7 @@
 	[
 		"Alignment",
 		"Bower",
+		"CoffeeScript",
 		"CSS Snippets",
 		"CSScomb",
 		"CSSFormat",
@@ -13,14 +14,10 @@
 		"Format SQL",
 		"Git",
 		"GitGutter",
-		"HtmlTidy",
 		"Jinja2",
-		"JsFormat",
 		"JSHint",
 		"JsMinifier",
 		"LESS",
-		"LESS-build",
-		"Less2Css",
 		"Minifier",
 		"Nodejs",
 		"Package Control",
@@ -44,7 +41,6 @@
 		"Unicode Character Highlighter",
 		"View In Browser",
 		"VintageEx",
-		"YUI Compressor",
 		"ZenCoding"
 	]
 }
