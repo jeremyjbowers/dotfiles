@@ -5,7 +5,10 @@
 	"font_size": 13,
 	"ignored_packages":
 	[
-		"Vintage"
+		"SublimeLinter",
+		"Vintage",
+		"SublimeCodeIntel"
 	],
-	"theme": "Soda Dark.sublime-theme"
+	"theme": "Flatland Dark.sublime-theme",
+	"vintageous_reset_mode_when_switching_tabs": false
 }
