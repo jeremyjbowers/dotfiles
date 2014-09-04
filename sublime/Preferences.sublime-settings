@@ -6,9 +6,9 @@
 	"font_size": 13,
 	"ignored_packages":
 	[
-		"SublimeLinter",
+		"SublimeCodeIntel",
 		"Vintage",
-		"SublimeCodeIntel"
+		"SublimeLinter"
 	],
 	"theme": "Flatland Dark.sublime-theme",
 	"vintageous_reset_mode_when_switching_tabs": false

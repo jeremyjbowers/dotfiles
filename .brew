@@ -1,0 +1,59 @@
+#!/bin/bash
+
+# Make sure we’re using the latest Homebrew
+brew upgrade
+
+# Upgrade any already-installed formulae
+brew update
+
+brew install ack
+brew install caskroom/cask/brew-cask
+brew install ffmpeg
+brew install gdal --with-postgres
+brew install giflib
+brew install git
+brew install ghi
+brew install grep
+brew install imagemagick
+brew install lame
+brew install libpng
+brew install mpg123
+brew install postgis
+brew install postgresql
+brew install python
+brew install node
+brew install rbenv
+brew install ruby-build
+brew install sqlite
+brew install tig
+brew install webkit2png
+
+brew tap caskroom/cask-versions
+
+# install all the things
+brew cask install google-chrome
+brew cask install google-chrome-canary
+brew cask install firefox
+brew cask install sublime-text-3
+brew cask install airdisplay
+brew cask install airfoil
+brew cask install alfred
+brew cask install audacity
+brew cask install bartender
+brew cask install choosy
+brew cask install droplr
+brew cask install fluid
+brew cask install flux
+brew cask install heroku-toolbelt
+brew cask install istat-menus
+brew cask install iterm2
+brew cask install linein
+brew cask install dropbox
+brew cask install rdio
+brew cask install hipchat
+brew cask install tilemill
+brew cask install virtualbox
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webp-quicklook suspicious-package
+
+
+brew cleanup
