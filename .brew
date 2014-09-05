@@ -34,7 +34,7 @@ brew tap caskroom/cask-versions
 brew cask install google-chrome
 brew cask install google-chrome-canary
 brew cask install firefox
-brew cask install sublime-text-3
+brew cask install sublime-text3
 brew cask install airdisplay
 brew cask install airfoil
 brew cask install alfred
