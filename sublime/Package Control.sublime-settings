@@ -29,6 +29,7 @@
 		"LESS",
 		"Minifier",
 		"Nodejs",
+		"Open Finder",
 		"Package Control",
 		"Placeholders",
 		"RSpec",
@@ -38,7 +39,6 @@
 		"SetDjangoSyntax",
 		"SideBarEnhancements",
 		"StringEncode",
-		"Sublime Finder",
 		"sublime-github",
 		"SublimeERB",
 		"SublimeLinter",
@@ -57,7 +57,6 @@
 		"Unicode Character Highlighter",
 		"View In Browser",
 		"Vintageous",
-		"Web Inspector",
-		"ZenCoding"
+		"Web Inspector"
 	]
 }
