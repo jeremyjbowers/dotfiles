@@ -10,8 +10,8 @@ alias ls="command ls -G"
 export LSCOLORS='Gxfxcxdxdxegedabagacad'
 
 # Set Sublime Text as default editor
-export EDITOR="/usr/bin/subl -w"
-export GIT_EDITOR='/usr/bin/subl -w'
+export EDITOR="subl -w"
+export GIT_EDITOR='subl -w'
 
 # source congi bash files, like aliases, colors, base theme
 HELPERS="${DOTFILES}/*.bash"
