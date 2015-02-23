@@ -4,6 +4,7 @@
 	],
 	"installed_packages":
 	[
+		"LESS",
 		"Package Control",
 		"Theme - Flatland"
 	]
