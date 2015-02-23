@@ -125,6 +125,14 @@ function extract() {
 	fi
 }
 
+# Sometimes yosemite crashes with a gunicorn server up
+# and when it comes back up there is a python process blocking port 8000
+# kill that process with this function
+# http://stackoverflow.com/questions/3855127/find-and-kill-process-locking-port-3000-on-mac
+function killport() {
+	lsof -i TCP:$1 | grep LISTEN | awk '{print $2}' | xargs kill -9
+}
+
 # Create a data URI from a file and copy it to the pasteboard
 # Credit to https://github.com/necolas/dotfiles/blob/master/bash/functions/datauri
 datauri() {
