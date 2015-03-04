@@ -1,20 +1,23 @@
 {
+	"caret_extra_width": 1,
+	"caret_style": "phase",
 	"color_scheme": "Packages/Predawn Monokai/Predawn Monokai.tmTheme",
 	"default_font_size": 13,
 	"findreplace_small": true,
 	"font_face": "Source Code Pro",
+	"font_options":
+	[
+		"no_round"
+	],
 	"font_size": 13,
-	"font_options": ["no_round"],
+	"highlight_line": true,
 	"ignored_packages":
 	[
 		"SublimeLinter",
 		"SublimeCodeIntel",
 		"Vintage"
 	],
-	"theme": "predawn.sublime-theme",
 	"tabs_medium": true,
-	"highlight_line": true,
-	"caret_extra_width": 1,
-	"caret_style": "phase",
+	"theme": "predawn.sublime-theme",
 	"vintageous_reset_mode_when_switching_tabs": false
 }

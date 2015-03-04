@@ -3,7 +3,8 @@
     "draw_centered": true, // Centers the column in the window
     "draw_indent_guides": false,
     "font_size": 15,
+    "font_face": "Input Sans Narrow",
     "trim_trailing_white_space_on_save": false,
     "word_wrap": true,
-    "wrap_width": 80  // Sets the # of characters per line
+    "wrap_width": 65  // Sets the # of characters per line
 }
