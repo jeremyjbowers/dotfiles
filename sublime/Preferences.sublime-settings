@@ -1,15 +1,20 @@
 {
-	"color_scheme": "Packages/User/Flatland Monokai (SL).tmTheme",
+	"color_scheme": "Packages/Predawn Monokai/Predawn Monokai.tmTheme",
 	"default_font_size": 13,
-	"flatland_square_tabs": true,
+	"findreplace_small": true,
 	"font_face": "Source Code Pro",
 	"font_size": 13,
+	"font_options": ["no_round"],
 	"ignored_packages":
 	[
+		"SublimeLinter",
 		"SublimeCodeIntel",
-		"Vintage",
-		"SublimeLinter"
+		"Vintage"
 	],
-	"theme": "Flatland Dark.sublime-theme",
+	"theme": "predawn.sublime-theme",
+	"tabs_medium": true,
+	"highlight_line": true,
+	"caret_extra_width": 1,
+	"caret_style": "phase",
 	"vintageous_reset_mode_when_switching_tabs": false
 }

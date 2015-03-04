@@ -1,4 +1,7 @@
 {
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"Alignment",
@@ -15,6 +18,7 @@
 		"Djaneiro",
 		"Dotfiles Syntax Highlighting",
 		"EJS",
+		"Emmet",
 		"FileDiffs",
 		"Floobits",
 		"Format SQL",
@@ -33,6 +37,8 @@
 		"Open Finder",
 		"Package Control",
 		"Placeholders",
+		"Predawn",
+		"Predawn Monokai",
 		"RSpec",
 		"SassBeautify",
 		"SCSS",
@@ -40,6 +46,7 @@
 		"SetDjangoSyntax",
 		"SideBarEnhancements",
 		"StringEncode",
+		"Sublime-CSS3",
 		"sublime-github",
 		"SublimeERB",
 		"SublimeLinter",
@@ -52,11 +59,16 @@
 		"TextFormatting",
 		"Theme - Flatland",
 		"Theme - Soda",
+		"Theme - Spacegray",
 		"Toggle Css Format",
 		"Transmit Docksend",
 		"Unicode Character Highlighter",
 		"View In Browser",
 		"Vintageous",
 		"Web Inspector"
+	],
+	"repositories":
+	[
+		"https://github.com/i-akhmadullin/Sublime-CSS3"
 	]
 }
