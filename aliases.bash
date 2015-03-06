@@ -92,3 +92,9 @@ alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && k
 
 # Install project requirements
 alias installreq="pip install -r requirements.txt; npm install; fab update"
+
+# Open a new iTerm tab with panes for dev server and fab/git commands
+alias tab="osascript ~/Projects/dotfiles/applescript/iterm_project_tab.scpt"
+
+# Open a new iTerm tab to work on dailygraphics with panes for dev server, dailygraphics fab/git and graphics git
+alias graphics="osascript ~/Projects/dotfiles/applescript/iterm_dailygraphics.scpt"

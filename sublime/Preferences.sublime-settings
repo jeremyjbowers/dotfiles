@@ -14,8 +14,8 @@
 	"ignored_packages":
 	[
 		"SublimeLinter",
-		"SublimeCodeIntel",
-		"Vintage"
+		"Vintage",
+		"SublimeCodeIntel"
 	],
 	"tabs_medium": true,
 	"theme": "predawn.sublime-theme",
