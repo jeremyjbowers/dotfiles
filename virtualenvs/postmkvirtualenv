@@ -1,0 +1,10 @@
+#!/bin/bash
+# This hook is run after a new virtualenv is activated.
+proj_name=$(echo $VIRTUAL_ENV|awk -F'/' '{print $NF}')
+
+printf "{\n\t\"folders\":\n\t[\n\t\t{\n\t\t\t\"path\": \"$HOME/Projects/$proj_name\"\n\t\t}\n\t]\n}" > $HOME/Projects/sublime-projects/$proj_name.sublime-project
+cd $proj_name
+subl $HOME/Projects/sublime-projects/$proj_name.sublime-project -b
+if test -f $HOME/Projects/$proj_name/requirements.txt; then
+	installreq
+fi

@@ -3,6 +3,7 @@
 # sync only .dotfiles
 function doIt() {
 	rsync --exclude-from "excludes.txt" -av .[^.]* ~
+	rsync -av ./virtualenvs/* ~/.virtualenvs/
 }
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
 	doIt

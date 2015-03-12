@@ -1,0 +1,10 @@
+#!/bin/bash
+# This hook is run after every virtualenv is activated.
+
+#cdvirtualenv
+proj_name=$(echo $VIRTUAL_ENV|awk -F'/' '{print $NF}')
+cd $HOME/Projects/$proj_name
+
+#if test -f $HOME/Projects/sublime-projects/$proj_name.sublime-project; then
+#	subl $HOME/Projects/sublime-projects/$proj_name.sublime-project -b
+#fi
