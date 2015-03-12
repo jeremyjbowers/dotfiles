@@ -52,6 +52,7 @@ brew cask install onepassword
 brew cask install dropbox
 brew cask install rdio
 brew cask install hipchat
+brew cask install colorpicker-skalacolor
 brew cask install tilemill
 brew cask install virtualbox
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webp-quicklook suspicious-package
