@@ -24,6 +24,6 @@
 }]]>
   </content>
   <tabTrigger>animation</tabTrigger>
-  <scope>source.css, source.less, source.scss</scope>
+  <scope>source.css</scope>
   <description>Keyframe animation</description>
 </snippet>

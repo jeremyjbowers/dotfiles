@@ -5,5 +5,5 @@
         background-clip: ${1:padding-box};
 ]]></content>
   <tabTrigger>background-clip</tabTrigger>
-  <scope>source.css, source.less, source.scss</scope>
+  <scope>source.css</scope>
 </snippet>
