@@ -146,3 +146,30 @@ datauri() {
 pman () {
     man -t "${1}" | open -f -a /Applications/Preview.app
 }
+
+# Add reminder to Reminders.app (OS X 10.8)
+# Usage: `remind 'foo'` or `echo 'foo' | remind`
+# credit: @addyosmani
+function remind() {
+        local text
+        if [ -t 0 ]; then
+                text="$1" # argument
+        else
+                text=$(cat) # pipe
+        fi
+        osascript >/dev/null <<EOF
+tell application "Reminders"
+        tell the default list
+                make new reminder with properties {name:"$text"}
+        end tell
+end tell
+EOF
+}
+
+# open last commit in GitHub, in the browser.
+# credit: @cowboy
+function gfu() {
+  local n="${@:-1}"
+  n=$((n-1))
+  open $(git log -n 1 --skip=$n --pretty=oneline | awk "{printf \"$(gurl)/commit/%s\", substr(\$1,1,7)}")
+}
