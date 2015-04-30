@@ -3,5 +3,6 @@
 	{ "keys": ["super+shift+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
 	{ "keys": ["super+v"], "command": "paste_and_indent" },
 	{ "keys": ["super+shift+v"], "command": "paste" },
-	{ "keys": ["super+0"], "command": "reset_font_size_to_user_defaults" }
+	{ "keys": ["super+0"], "command": "reset_font_size_to_user_defaults" },
+    { "keys": ["ctrl+i"], "command": "reindent" }
 ]
