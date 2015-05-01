@@ -8,10 +8,15 @@
       "predawn-ui"
       "monokai"
     ]
+    projectHome: "/Users/ddebelius/Projects"
   editor:
     invisibles: {}
     fontFamily: "Source Code Pro"
-    showIndentGuide: true
     tabLength: 4
     fontSize: 13
+    softWrapAtPreferredLineLength: true
   pigments: {}
+  "markdown-preview": {}
+".gfm.source":
+  editor:
+    preferredLineLength: 65

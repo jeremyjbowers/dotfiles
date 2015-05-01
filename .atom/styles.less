@@ -12,6 +12,8 @@
     font-family: 'San Francisco Text', 'Lucida Grande', 'Segoe UI', sans-serif;
 }
 
+
+
 .tree-view {
 
 }
@@ -26,4 +28,18 @@ atom-text-editor {
 // expression
 atom-text-editor::shadow .cursor {
 
+}
+
+atom-text-editor::shadow {
+    .line-numbers {
+        background-color: #282828 !important;
+    }
+
+    .trailing-whitespace {
+        background-color: #F92672;
+    }
+}
+
+.settings-view .config-menu .nav > li.active > a {
+    color: #fff;
 }
