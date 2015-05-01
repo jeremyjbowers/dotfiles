@@ -1,4 +1,9 @@
 custom/
+atom.symlink/.apm
+atom.symlink/.node-gyp
+atom.symlink/compile-cache
+atom.symlink/packages
+atom.symlink/storage
 sublime/GitHub.sublime-settings
 sublime/ColorPicker/
 sublime/Package Control.last-run

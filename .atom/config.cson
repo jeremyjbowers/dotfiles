@@ -1,0 +1,17 @@
+"*":
+  "exception-reporting":
+    userId: "14a919a0-c86f-80be-7cc8-715bb96ee073"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "predawn-ui"
+      "monokai"
+    ]
+  editor:
+    invisibles: {}
+    fontFamily: "Source Code Pro"
+    showIndentGuide: true
+    tabLength: 4
+    fontSize: 13
+  pigments: {}
