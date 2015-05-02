@@ -9,9 +9,9 @@ unset MAILCHECK
 alias ls="command ls -G"
 export LSCOLORS='Gxfxcxdxdxegedabagacad'
 
-# Set Sublime Text as default editor
-export EDITOR="subl -w"
-export GIT_EDITOR='subl -w'
+# Set Atom as default editor
+export EDITOR="atom"
+export GIT_EDITOR='atom'
 
 # source congi bash files, like aliases, colors, base theme
 HELPERS="${DOTFILES}/*.bash"

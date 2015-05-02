@@ -18,6 +18,8 @@
   pigments: {}
   "markdown-preview": {}
   minimap: {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
 ".gfm.source":
   editor:
     preferredLineLength: 65
