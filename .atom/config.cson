@@ -9,6 +9,9 @@
       "monokai"
     ]
     projectHome: "/Users/ddebelius/Projects"
+    disabledPackages: [
+      "metrics"
+    ]
   editor:
     invisibles: {}
     fontFamily: "Source Code Pro"
