@@ -14,9 +14,10 @@
     fontFamily: "Source Code Pro"
     tabLength: 4
     fontSize: 13
-    softWrapAtPreferredLineLength: true
+    showIndentGuide: true
   pigments: {}
   "markdown-preview": {}
+  minimap: {}
 ".gfm.source":
   editor:
     preferredLineLength: 65
