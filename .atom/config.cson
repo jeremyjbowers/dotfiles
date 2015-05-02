@@ -5,7 +5,7 @@
     showOnStartup: false
   core:
     themes: [
-      "predawn-ui"
+      "one-dark-ui"
       "monokai"
     ]
     projectHome: "/Users/ddebelius/Projects"
