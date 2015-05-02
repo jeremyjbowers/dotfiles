@@ -4,13 +4,14 @@
   welcome:
     showOnStartup: false
   core:
-    themes: [
-      "one-dark-ui"
-      "monokai"
-    ]
     projectHome: "/Users/ddebelius/Projects"
     disabledPackages: [
       "metrics"
+      "markdown-preview"
+    ]
+    themes: [
+      "one-dark-ui"
+      "monokai-syntax-for-one-dark"
     ]
   editor:
     invisibles: {}
@@ -22,6 +23,13 @@
   "markdown-preview": {}
   minimap: {}
   "tree-view": {}
+  "block-cursor":
+    primaryColor:
+      red: 204
+      green: 204
+      blue: 204
+      alpha: 1
+  "isotope-ui": {}
 ".gfm.source":
   editor:
     preferredLineLength: 65
