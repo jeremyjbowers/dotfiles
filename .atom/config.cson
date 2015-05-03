@@ -30,6 +30,12 @@
       blue: 204
       alpha: 1
   "isotope-ui": {}
+  "atom-beautify":
+    _analyticsUserId: "fe2eca7e-2f2a-4cfb-89d7-891c3ca924fe"
+    css_newline_between_rules: true
+    css_preserve_newlines: true
+    css_selector_separator_newline: true
+    analytics: false
 ".gfm.source":
   editor:
     preferredLineLength: 65
