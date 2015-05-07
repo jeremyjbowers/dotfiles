@@ -1,8 +1,10 @@
-atom-alignment@0.12.0
-atom-beautify@0.24.1
+atom-alignment@0.12.1
+atom-beautify@0.27.0
 atom-jinja2@0.5.0
+autocomplete-plus@2.12.1
 change-case@0.5.1
 color-picker@1.7.0
+emmet@2.3.8
 git-control@0.2.0
 git-plus@4.5.0
 git-tab-status@1.7.0
@@ -11,5 +13,5 @@ minimap@4.8.0
 monokai@0.14.0
 monokai-syntax-for-one-dark@0.2.2
 pigments@0.2.0
-vim-mode@0.45.0
+vim-mode@0.46.0
 

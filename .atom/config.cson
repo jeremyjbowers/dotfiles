@@ -36,6 +36,7 @@
     css_preserve_newlines: true
     css_selector_separator_newline: true
     analytics: false
+  "autocomplete-plus": {}
 ".gfm.source":
   editor:
     preferredLineLength: 65
